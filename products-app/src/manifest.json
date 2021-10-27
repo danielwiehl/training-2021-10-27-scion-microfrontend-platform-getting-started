@@ -1,0 +1,33 @@
+{
+  "name": "Product App",
+  "capabilities": [
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "products"
+      },
+      "private": false,
+      "properties": {
+        "path": "./products-view.html",
+        "title": "Products"
+      }
+    },
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "product"
+      },
+      "params": [
+        {
+          "name": "productName",
+          "required": true
+        }
+      ],
+      "private": false,
+      "properties": {
+        "path": "./product-view.html",
+        "title": "Product"
+      }
+    }
+  ]
+}

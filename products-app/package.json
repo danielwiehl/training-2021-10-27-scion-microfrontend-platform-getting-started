@@ -4,6 +4,7 @@
     "start": "cpy src/*.json dist && parcel src/*.html --port 4201 --no-cache"
   },
   "dependencies": {
+    "@scion/workbench-client": "latest",
     "@scion/microfrontend-platform": "latest",
     "@scion/toolkit": "latest",
     "rxjs": "^6.6.7"

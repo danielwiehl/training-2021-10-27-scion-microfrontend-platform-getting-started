@@ -1,0 +1,29 @@
+{
+  "name": "Shopping Cart App",
+  "capabilities": [
+    {
+      "type": "activator",
+      "private": false,
+      "properties": {
+        "path": "activator.html"
+      }
+    },
+    {
+      "type": "microfrontend",
+      "qualifier": {
+        "entity": "shopping-cart"
+      },
+      "private": false,
+      "params": [
+        {
+          "name": "outletName",
+          "required": true,
+          "description": "Specifies in which outlet to display the shopping cart microfrontend"
+        }
+      ],
+      "properties": {
+        "pfad": "/shopping-cart.html"
+      }
+    }
+  ]
+}

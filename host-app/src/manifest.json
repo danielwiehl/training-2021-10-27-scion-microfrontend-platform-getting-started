@@ -1,0 +1,11 @@
+{
+  "name": "Host App",
+  "intentions": [
+    {
+      "type": "microfrontend",
+      "qualifier": {
+        "entity": "shopping-cart"
+      }
+    }
+  ]
+}

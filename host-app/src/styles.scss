@@ -21,4 +21,8 @@ body {
     grid-column: 1/-1;
     grid-row: 3/4;
   }
+
+  > sci-router-outlet[name="SHOPPING-CART"].sci-empty {
+    display: none;
+  }
 }
